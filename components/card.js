@@ -6,7 +6,8 @@ const Card=({children})=>{
         border:'1px solid #ddd',
         display:'flex',
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
+        
     };
 
     return <div style={cardStyle}>{children}</div>
